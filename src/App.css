@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+li{
+  list-style:none;
+}
+
+.intro-screen{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #16354F;
+  padding: 2em;
+  padding-top: 4em;
+  padding-bottom: 3em;
+  animation:fadeIn 3s;
+  
+}
+
+.search-form{
+  padding: 2em;
+  padding-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation:fadeIn 2s;
+}
+
+.placeholder{
+  min-height: 70vh;
+}
+
+.search-bar{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.search-button{
+  background: #FFAB9B;
+  border: none;
+  padding: 6px 20px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
